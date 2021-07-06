@@ -1,0 +1,168 @@
+body{
+    margin: 0px;
+}
+
+h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    color: #575757;
+}
+
+
+.name-highlight{
+    background-image: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    background-size: 100%;
+    background-repeat: repeat;
+
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+
+}
+
+p{
+    color: #828282;
+}
+
+.order-section{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.top1{
+    width: 30%;
+    padding-left: 10%;
+}
+
+.top2{
+    width: 50%;
+    padding-left: 10%;
+}
+
+.top img{
+    width: 75%;
+    
+}
+
+.order-button{
+    text-decoration: none;
+    background-image: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    padding: 10px 20px;    
+    border-radius: 100px;
+    color:white;
+    
+}
+
+
+
+.contact-section{
+
+    background-image: url("images/shapes/7.png");
+    background-size: cover;
+    display: flex;
+    margin-bottom: 50px;
+
+
+
+}
+
+h2{
+    color: #707070;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 54px;
+
+}
+
+.about-p{
+    color: #18191F;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    width: 540px;
+
+}
+
+.middle{
+    width: 50%;
+    padding-left: 10%;
+    margin-top: 150px;
+}
+
+.middle img{
+    width: 338px;
+    height: 536px;
+}
+
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+    margin: 5%;
+}
+
+.final{
+    width: 25%;
+}
+
+.final img{
+    width: 100%;
+}
+
+
+.center{
+    text-align:center;
+}
+
+
+.box-shadow {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    height: 528px;
+    padding: 20px;
+    margin: 0px 54px;
+
+}
+
+
+.portfolio{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.work-img {
+    width: 35%;
+    margin: 10px;
+}
+
+.work-img img{
+    width: 100%;
+}
+
+
+.footer-section{
+    background-color: black;
+
+}
+
+
+.copyright{
+    padding: 20px;
+}
+
+
+.copyright p {
+    text-align: center;
+    color: #ffffff;
+}
+
